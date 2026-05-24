@@ -1,15 +1,13 @@
 # Screenshots
 
-Add exported PNGs from Figma here for GitHub preview:
+Exports from the **Final UI** page in Figma:
 
-1. Open [the Figma file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
-2. Go to **Final UI**
-3. Select each screen → **Export** → PNG @ 2x
-4. Name files:
-   - `01-welcome.png`
-   - `02-main-chat.png`
-   - `03-suggestions.png`
-   - `04-settings.png`
-   - `05-voice.png`
+| File | Screen |
+|------|--------|
+| `01-welcome.png` | Welcome / home |
+| `02-main-chat.png` | Chat with history sidebar |
+| `03-explore.png` | Explore & categories |
+| `04-settings.png` | Profile & preferences |
+| `05-voice.png` | Voice listening UI |
 
-Then commit: `git add screenshots && git commit -m "Add screen exports"`
+These match the previews in the root [README](../README.md).

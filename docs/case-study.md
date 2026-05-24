@@ -1,39 +1,46 @@
-# Case Study — AI Assistant Dashboard UI
+# Case study — AI Assistant Dashboard UI
 
-## Overview
+## Context
 
-Designed a mobile-first AI assistant experience that guides users from onboarding through chat, discovery, settings, and voice interaction.
+I designed this as a portfolio piece: a small mobile app for talking to an AI assistant. The goal was to cover a realistic flow end to end—not just one pretty home screen.
 
-## Problem
+## The problem I was solving
 
-Users need a clear entry point into AI chat, easy ways to discover what the assistant can do, and controls for personalization—without visual clutter.
+Most chat apps either throw you into an empty thread or overwhelm you with options. I tried to balance:
 
-## Solution
+- A friendly first screen so new users are not staring at a blank chat
+- A familiar message UI once they are in
+- A separate place to browse ideas (Explore)
+- Settings that feel personal without hiding important AI options
+- Voice as its own mode, not a tiny icon lost in the composer
 
-Five connected screens with a shared dark theme and purple accent system:
+## The five screens
 
-1. **Welcome** — Reduces blank-page anxiety with suggested prompts and a single primary action.
-2. **Main Chat** — Familiar messaging pattern with history sidebar and typing feedback.
-3. **AI Suggestions** — Browseable prompt library with category filters.
-4. **Profile / Settings** — Toggles for theme and notifications plus AI model preferences.
-5. **Voice Assistant** — Dedicated voice mode with visual listening state and transcript preview.
+1. **Welcome** — Greeting, four suggested prompts, one clear CTA.
+2. **Main chat** — Sidebar history, assistant intro message, user bubble example, input + send.
+3. **Explore** — Filter chips and recommendation cards with short descriptions and tags.
+4. **Settings** — Avatar, dark mode / notifications toggles, response length, model, language.
+5. **Voice** — “Listening…” state, rings + waveform, example utterance, Cancel / Done.
 
-## Design decisions
+## Decisions I made along the way
 
-| Decision | Rationale |
-|----------|-----------|
-| Dark theme | Common in modern AI apps; reduces eye strain |
-| Gradient accents | Highlights CTAs without heavy decoration |
-| Card-based prompts | Scannable, tappable targets for discovery |
-| Sidebar history | Keeps context visible without leaving chat |
+| Choice | Why |
+|--------|-----|
+| Dark UI | Fits the product type and keeps focus on content |
+| Purple → blue gradients | Marks primary actions without adding extra chrome |
+| Prompt cards on Explore | Easier to scan than a long list of plain text |
+| History in the chat view | Quick jump between topics without a separate “archive” screen |
+| Dedicated voice screen | Room for feedback (waveform, status copy) while recording |
 
-## Figma file structure
+## Figma setup
 
-- **Wireframes** — Low-fidelity layout exploration
-- **Final UI** — High-fidelity screens
-- **Prototype** — Interactive user flow (connect in Figma Present mode)
+- **Wireframes** — layout and hierarchy before polish
+- **Final UI** — color, type, and components
+- **Prototype** — links between screens for demos and interviews
 
 ## Links
 
-- [Figma design file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
-- [Interactive prototype](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
+- [Design file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
+- [Prototype](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
+
+Screenshots live in [`../screenshots/`](../screenshots/).

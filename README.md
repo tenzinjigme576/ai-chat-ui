@@ -1,51 +1,59 @@
 # AI Assistant Dashboard UI
 
-A modern conversational AI interface designed in Figma for internship and portfolio use. The project focuses on usability, clean navigation, and an AI-driven user experience across a complete mobile app flow.
+A mobile UI project I built in Figma for my portfolio. I wanted to practice designing a full chat-app flow—onboarding, messaging, discovery, settings, and voice input—without cramming too much on each screen.
 
-## View the design
+## Try it in Figma
 
 | | Link |
 |---|------|
-| **Figma file** (edit & inspect) | [Open design file →](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
-| **Interactive prototype** | [Try the prototype →](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
+| **Design file** | [Open in Figma →](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
+| **Prototype** | [Click through the flow →](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
 
-| Screen | Description |
-|--------|-------------|
-| Welcome | Greeting, suggested prompts, Start Chat CTA |
-| Main Chat | User/AI messages, typing indicator, history sidebar |
-| AI Suggestions | Prompt cards, categories, recommended actions |
-| Profile / Settings | Dark mode, notifications, AI preferences |
-| Voice Assistant | Mic animation, waveform, voice interaction UI |
+## Screens
 
-## Screenshots
+### Welcome
 
-Preview images are in [`screenshots/`](screenshots/). Export from Figma (**Final UI** page) if you add updated designs.
+Landing screen with suggested prompts and a single **Start Chat** button so users know where to begin.
 
-## Design approach
+![Welcome screen](screenshots/01-welcome.png)
 
-- **Style:** Dark mode, rounded cards, purple/blue accent gradients, Inter typography
-- **Layout:** 390×844 mobile frames, spacious minimal UI
-- **Structure:** Wireframes · Final UI · Prototype pages in Figma
+### Main chat
 
-## Skills demonstrated
+Messaging layout with a history sidebar, assistant greeting, and a message composer at the bottom.
 
-- UI & UX design for AI products
-- Conversational flow and interaction patterns
-- Component thinking and consistent visual system
-- Figma (variables, multi-page file, prototype-ready screens)
+![Main chat screen](screenshots/02-main-chat.png)
+
+### Explore
+
+Browse prompts by category (Writing, Code, Creative, Business) so people can discover what to ask without starting from scratch.
+
+![Explore screen](screenshots/03-explore.png)
+
+### Settings
+
+Profile header plus toggles for dark mode and notifications, and options for response length, model, and language.
+
+![Settings screen](screenshots/04-settings.png)
+
+### Voice input
+
+Listening state with mic animation, waveform, and cancel/done actions for hands-free input.
+
+![Voice assistant screen](screenshots/05-voice.png)
+
+## What I focused on
+
+- **Dark theme** with purple/blue gradients on primary actions
+- **390×844** mobile frames and Inter for type
+- **Consistent components**—cards, chips, bubbles, toggles—reused across screens
+- **Figma structure:** wireframes first, then high-fidelity **Final UI**, then a linked prototype
 
 ## Tools
 
-- [Figma](https://www.figma.com/)
+Figma
 
-## Repository
+## About
 
-[github.com/tenzinjigme576/ai-chat-ui](https://github.com/tenzinjigme576/ai-chat-ui)
+**Tenzin Jigme** — [github.com/tenzinjigme576/ai-chat-ui](https://github.com/tenzinjigme576/ai-chat-ui)
 
-## Author
-
-**Tenzin Jigme**
-
----
-
-*For recruiters: use the **prototype link** to click through the flow, or the **design file** to inspect layers and tokens.*
+More detail on decisions and rationale: [`docs/case-study.md`](docs/case-study.md).
