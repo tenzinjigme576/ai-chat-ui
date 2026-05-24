@@ -2,7 +2,7 @@
 
 Add exported PNGs from Figma here for GitHub preview:
 
-1. Open [the Figma file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK)
+1. Open [the Figma file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
 2. Go to **Final UI**
 3. Select each screen → **Export** → PNG @ 2x
 4. Name files:

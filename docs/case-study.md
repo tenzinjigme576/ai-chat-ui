@@ -33,6 +33,7 @@ Five connected screens with a shared dark theme and purple accent system:
 - **Final UI** — High-fidelity screens
 - **Prototype** — Interactive user flow (connect in Figma Present mode)
 
-## Link
+## Links
 
-[View the Figma file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK)
+- [Figma design file](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)
+- [Interactive prototype](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2)

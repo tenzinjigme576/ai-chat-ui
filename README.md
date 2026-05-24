@@ -4,7 +4,10 @@ A modern conversational AI interface designed in Figma for internship and portfo
 
 ## View the design
 
-**[Open in Figma →](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK)**
+| | Link |
+|---|------|
+| **Figma file** (edit & inspect) | [Open design file →](https://www.figma.com/design/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
+| **Interactive prototype** | [Try the prototype →](https://www.figma.com/proto/o9THnW4EMHsg19KGhIdKWK/AI-Assistant-Dashboard-UI?node-id=1-2) |
 
 | Screen | Description |
 |--------|-------------|
@@ -45,4 +48,4 @@ Preview images are in [`screenshots/`](screenshots/). Export from Figma (**Final
 
 ---
 
-*For recruiters: use the Figma link above to inspect layers, prototype flows, and design tokens.*
+*For recruiters: use the **prototype link** to click through the flow, or the **design file** to inspect layers and tokens.*
